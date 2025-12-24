@@ -1,16 +1,22 @@
-## Hi there 👋
+## Hi, I'm Hideki.
 
-<!--
-**NucoNekoSan/NucoNekoSan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I work on **business improvement and data utilization**, building practical tools with **Python** and **Django**.
+I focus on reproducible workflows and clear documentation.
 
-Here are some ideas to get you started:
+### What I'm working on
+- **Personal blog / portfolio** (Django CMS)
+- **Reading tracker** (database design + analytics, migrating step by step)
+- **Household finance tracker** (data model → dashboards → automation)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Core skills (growing)
+- Python / Django / Git / Docker
+- Data analysis: pandas, basic statistics, visualization
+- Excel / SQL for business operations
+
+### How I work
+- Prefer simple, maintainable architecture over over-engineering
+- Keep everything reproducible: README, scripts, environment setup
+- Document decisions and processes to avoid knowledge silos
+
+### Status
+- Personal projects under active development
