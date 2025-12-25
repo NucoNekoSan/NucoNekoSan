@@ -1,22 +1,55 @@
-## Hi, I'm Hideki.
+# プロフィール
 
-I work on **business improvement and data utilization**, building practical tools with **Python** and **Django**.
-I focus on reproducible workflows and clear documentation.
+業務改善とデータ活用を軸に、実務で使える仕組みづくりに取り組んでいます。  
+再現性のあるワークフロー設計と、分かりやすいドキュメント整備を重視しています。
 
-### What I'm working on
-- **Personal blog / portfolio** (Django CMS)
-- **Reading tracker** (database design + analytics, migrating step by step)
-- **Household finance tracker** (data model → dashboards → automation)
+---
 
-### Core skills (growing)
-- Python / Django / Git / Docker
-- Data analysis: pandas, basic statistics, visualization
-- Excel / SQL for business operations
+## 現在取り組んでいること
 
-### How I work
-- Prefer simple, maintainable architecture over over-engineering
-- Keep everything reproducible: README, scripts, environment setup
-- Document decisions and processes to avoid knowledge silos
+- **読書管理ツール**  
+  PowerApps・Power Automate・Excel・Access を用いて構築中。  
+  入力・管理・集計を業務ツールとしてまず成立させた上で、  
+  将来的にデータベース設計や分析機能を段階的に発展させていく予定です。
 
-### Status
-- Personal projects under active development
+- **家計管理ツール**  
+  PowerApps・Power Automate・Excel・Access を用いて構築中。  
+  データモデル設計を起点に、入力・集計・可視化・自動化までを  
+  一連の仕組みとして整理・実装しています。
+
+※ 既存ツールで業務設計と要件整理を行い、  
+　必要に応じて技術移行していく方針を取っています。
+
+---
+
+## スキル・経験領域
+
+- 業務改善・運用設計  
+- PowerApps / Power Automate / Excel / Access  
+- データ設計・集計・可視化  
+- Git / ドキュメント整備
+
+---
+
+## 学習・関心分野
+
+- Python / Django / Django CMS / FastAPI  
+- データ分析・可視化  
+- TypeScript / Next.js / Astro  
+- HTML / CSS（Tailwind CSS）
+
+※ 個人開発を通じて、必要に応じて段階的に習得していく方針です。
+
+---
+
+## 仕事の進め方
+
+- 過度な設計より、**シンプルで保守しやすい構成**を重視
+- README・手順書・設定を整備し、**再現性を確保**
+- 判断やプロセスを記録し、**属人化を避ける**運用を心がけています
+
+---
+
+## Status
+
+- 個人プロジェクトを継続的に開発・学習中
