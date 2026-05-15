@@ -13,10 +13,15 @@
 
 Django + HTMX + PWA 製の自己ホスト型ファイナンスアプリ。**日次家計簿 + 個人 B/S + 確定申告レポート (国税庁様式)** を統合。サラリーマン世帯の確定申告（医療費控除・生命保険料控除・地震保険料控除・寄附金）の補助を 1 画面で完結できる設計。
 
+- 🌐 **ライブデモ**: https://budgetbook-demo-static.nuconekosan.workers.dev/ (Cloudflare 配信の静的スナップショット、24/7 稼働)
 - Tech: Django 5.2, HTMX, SQLite (WAL), Gunicorn + Nginx, Docker, PWA
 - Tests: 500 件 (全 pass)
 - License: MIT
 - 設計判断: [docs/TECH_SPEC.md](https://github.com/NucoNekoSan/budgetbook-demo/blob/master/docs/TECH_SPEC.md) / [docs/SECURITY.md](https://github.com/NucoNekoSan/budgetbook-demo/blob/master/docs/SECURITY.md)
+
+### [**budgetbook-demo-static**](https://github.com/NucoNekoSan/budgetbook-demo-static) — ライブデモの静的化基盤
+
+`budgetbook-demo` から静的 HTML を生成し、Cloudflare で 24/7 公開する仕組み。**Django ランタイムを公開せず攻撃面ゼロ**を実現するセキュリティ設計。
 
 ### [**dev-environment**](https://github.com/NucoNekoSan/dev-environment) — Python 開発環境ノート
 
