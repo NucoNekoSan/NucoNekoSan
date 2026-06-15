@@ -23,10 +23,6 @@ Django + HTMX + PWA 製の自己ホスト型ファイナンスアプリ。**日�
 
 `budgetbook-demo` から静的 HTML を生成し、Cloudflare で 24/7 公開する仕組み。**Django ランタイムを公開せず攻撃面ゼロ**を実現するセキュリティ設計。
 
-### [**dev-environment**](https://github.com/NucoNekoSan/dev-environment) — Python 開発環境ノート
-
-Windows / macOS 両対応の **再現可能な Python 開発環境**構築手順。venv / PyCharm / pylint の運用方針をドキュメント化。
-
 ---
 
 ## 🛠 取り組んでいること
