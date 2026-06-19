@@ -85,7 +85,7 @@ AI がなくても、取込・検証・分析・診断メモ・レポート下�
 
 **業務改善・運用設計**
 - 業務フロー整理、入力設計、集計、レポート化
-- Excel / Access / PowerApps / Power Automate を含む業務ツール設計
+- Excel を使ったデータ整理・集計・業務補助
 - 手順書、運用ルール、引継ぎ文書、復旧手順の整備
 
 **Web アプリ開発**
@@ -95,6 +95,7 @@ AI がなくても、取込・検証・分析・診断メモ・レポート下�
 - Docker / Docker Compose / Nginx / Gunicorn
 
 **学習・拡張中**
+- Access / PowerApps / Power Automate
 - TypeScript / Next.js
 - ASP.NET Core / .NET
 - Tailwind CSS
