@@ -48,6 +48,7 @@ Django CMS / PostgreSQL / Docker / Nginx / Gunicorn を使った個人ブログ�
 開発環境での主要実装は完了し、本番サーバー準備待ちの状態です。
 
 - 目的: メンタルヘルス、キャリア、技術学習、書評などを継続発信するメディア基盤
+- 技術: Python, Django, django CMS, PostgreSQL, Tailwind CSS, Docker Compose, Nginx, Gunicorn
 - 重視点: CMS 運用、Docker 化、本番想定の設定分離、ドキュメント整備
 
 ### **BudgetBook** — 個人利用中の家計・税務補助アプリ
@@ -56,7 +57,7 @@ Django CMS / PostgreSQL / Docker / Nginx / Gunicorn を使った個人ブログ�
 月次締め、家計分析、確定申告補助、PWA 化、AI 分析補助などを継続改善しています。
 
 - 月次締め、残高照合、支出分析、確定申告補助の運用フローを整備
-- PWA / Docker / Host 設定 / ポート管理 / 運用前チェックを整備
+- 技術: Python, Django, HTMX, SQLite, PWA, Docker, Cloudflare Tunnel / Access
 - 個人金融データを扱う前提で、バックアップ・復旧・安全な公開範囲を重視
 
 ### **BookForge** — Obsidian 連携型の読書学習・蔵書管理アプリ
@@ -65,18 +66,18 @@ FastAPI + Next.js + PostgreSQL + Docker Compose で構築している、読書�
 蔵書管理だけでなく、読了後の問いへの回答、章ノート、Obsidian への保存までを一連の読書学習フローとして扱います。
 
 - 北極星: 読み終わった本を「要約・学び・アクション」の 3 つの問いで整理し、Obsidian に知識資産として保存
-- 読始時に Obsidian フォルダ、Top ノート、章ノートを自動生成する scaffold を実装
+- 技術: Python, FastAPI, Next.js, TypeScript, PostgreSQL, Alembic, Docker Compose
 - Obsidian の手書き部分を壊さない managed marker / 非破壊更新 / 回帰テストを重視
-- API / Web / DB を Docker Compose で分離し、バックアップ、マイグレーション、引継ぎ文書を整備
+- API / Web / DB を分離し、バックアップ、マイグレーション、引継ぎ文書を整備
 
 ### **Local-BI-Tool** — ローカル完結型 BI / 診断メモ基盤
 
 中小企業の売上・粗利・顧客・商品データを、ローカル環境で分析するための BI ツールです。
 AI がなくても、取込・検証・分析・診断メモ・レポート下書きが成立する設計を目指しています。
 
-- Backend: ASP.NET Core
-- Frontend: Next.js + TypeScript
-- Analysis Service: FastAPI + pandas
+- Backend: ASP.NET Core / .NET
+- Frontend: Next.js + TypeScript（技術前提。README 上の現在実装範囲では未着手）
+- Analysis Service: Python + FastAPI + pandas
 - DB: PostgreSQL / DuckDB optional
 - 方針: クライアント実データ、秘密情報、DB、exports、ログを Git 管理しない
 
@@ -96,18 +97,19 @@ AI がなくても、取込・検証・分析・診断メモ・レポート下�
 - 生成コードのレビュー: 動作確認、エラー調査、ログ確認、差分確認、修正方針の判断
 - 運用前チェック: Docker 起動確認、ポート衝突確認、ヘルスチェック、バックアップ・復旧手順確認
 
-**プロジェクトで扱っている技術**
+**プロジェクトで採用・検証している技術**
 - Python / Django / Django CMS / FastAPI
-- PostgreSQL / SQLite / DuckDB
-- HTML / CSS / HTMX / PWA
-- Docker / Docker Compose / Nginx / Gunicorn
-
-**学習・拡張中**
-- Access / PowerApps / Power Automate
 - TypeScript / Next.js
 - ASP.NET Core / .NET
-- Tailwind CSS
-- ローカル BI、データ分析、AI 補助ワークフロー
+- PostgreSQL / SQLite / DuckDB
+- HTML / CSS / HTMX / PWA / Tailwind CSS
+- Docker / Docker Compose / Nginx / Gunicorn / Cloudflare Tunnel / Cloudflare Access
+
+**現在深掘りしているテーマ**
+- AI 支援開発の進め方: spec、agent、skill、検証手順の組み立て
+- ローカル BI: データ取込、検証、分析、診断メモ、レポート下書きの設計
+- 個人情報・金融データ・クライアントデータを扱うアプリの安全な運用設計
+- Access / PowerApps / Power Automate
 
 ---
 
