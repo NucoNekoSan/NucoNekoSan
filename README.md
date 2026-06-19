@@ -55,18 +55,19 @@ Django CMS / PostgreSQL / Docker / Nginx / Gunicorn を使った個人ブログ�
 公開版 `budgetbook-demo` の元になっている個人運用プロジェクトです。
 月次締め、家計分析、確定申告補助、PWA 化、AI 分析補助などを継続改善しています。
 
-- 2026-05 月締め済み
+- 月次締め、残高照合、支出分析、確定申告補助の運用フローを整備
 - PWA / Docker / Host 設定 / ポート管理 / 運用前チェックを整備
 - 個人金融データを扱う前提で、バックアップ・復旧・安全な公開範囲を重視
 
-### **BookForge** — 読書・蔵書管理アプリ
+### **BookForge** — Obsidian 連携型の読書学習・蔵書管理アプリ
 
-FastAPI + Next.js + PostgreSQL + Docker Compose で構築している個人利用中の読書管理アプリです。
-ISBN 検索、蔵書管理、読書状態、タグ、メモ、外部 API 連携、運用手順の整備を進めています。
+FastAPI + Next.js + PostgreSQL + Docker Compose で構築している、読書を知識・人生・仕事の資産に変えるための個人利用アプリです。
+蔵書管理だけでなく、読了後の問いへの回答、章ノート、Obsidian への保存までを一連の読書学習フローとして扱います。
 
-- 個人利用で運用中
-- API / Web / DB を Docker Compose で分離
-- ポート衝突回避、DB バックアップ、マイグレーション、引継ぎ文書を整備
+- 北極星: 読み終わった本を「要約・学び・アクション」の 3 つの問いで整理し、Obsidian に知識資産として保存
+- 読始時に Obsidian フォルダ、Top ノート、章ノートを自動生成する scaffold を実装
+- Obsidian の手書き部分を壊さない managed marker / 非破壊更新 / 回帰テストを重視
+- API / Web / DB を Docker Compose で分離し、バックアップ、マイグレーション、引継ぎ文書を整備
 
 ### **Local-BI-Tool** — ローカル完結型 BI / 診断メモ基盤
 
